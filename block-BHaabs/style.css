@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custome style */
+body {
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: hsla(0, 0%, 0%, 0.808); 
+}
+.section {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 3em 0;
+ }
+
+h1 { 
+	font-family: 'Yellowtail', cursive;
+	font-size: 56px;
+	line-height: 1.16666666666;
+	margin-bottom: 30px; 
+	color: crimson;
+	text-decoration-line: underline;
+		
+}
+.time, .tag {
+	font-size: 30px;
+	color: rgb(255, 39, 82);
+	line-height: 1.9;
+	font-family: 'Sansita Swashed', cursive;
+	
+	
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	
+}
+ .time {
+	color: rgb(212, 203, 205);
+} 
+
+h2 {
+	font-size: 50px;
+	padding-top: 24px;
+	margin-bottom: 12px; 
+	word-spacing: 34px;
+	color: dodgerblue;
+	font-family: 'Yellowtail', cursive;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+	text-decoration-color: white;
+	text-shadow: 9px 5px 21px rgb(185, 18, 51);
+
+}
+
+p {
+font-size: 24px;
+margin: 40px 0;
+color: rgb(248, 222, 222);
+font-family: 'Roboto Condensed', sans-serif;
+
+ } 
+
+ .para {
+ font-size: 30px;
+ margin: 40px 0;
+ color: rgb(248, 222, 222);
+ font-family: 'Shadows Into Light', cursive;
+}
