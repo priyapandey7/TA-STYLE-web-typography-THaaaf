@@ -1,0 +1,172 @@
+<!-- writeCode
+
+- Create an insurance website according to the layout shown below.
+
+![Web Typography Assignment level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/web-typography/ex-2.png)
+
+### Typography
+
+**Heading**
+
+Font Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display?query=dm+se)
+
+**Body**
+
+Font Family: [Karla](https://fonts.google.com/specimen/Karla?query=karla)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+- Work on typography in detail. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Assignment-2 Typography </title>
+         <link rel="stylesheet" href="style.css">
+         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Karla&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     </head>
+
+     <body>
+            <header class="header">
+                <div class="container flex">
+                           <a class="brand" href="#">
+                             <h1>ProInsure</h1>
+                           </a>
+                      <nav class="nav">
+                            <a href="#">HOME</a>
+                            <a href="#">ABOUT</a>
+                           <a href="#">CONTACT</a>
+                           <a class="view" href="#">VIEW PLANS</a>
+                         
+                     </nav>
+                </div>
+           </header>
+
+                   <main>
+                      <section class="section-1">
+                             <div class="container flex">
+           
+                                <article>
+                                    <div class="col col-1">
+                                          <hr class="line">
+                                          <h2>humanizing your insurance  </h2>
+                                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, neque ipsa aut vitae nihil veritatis, harum fugit voluptatibus sit dicta nesciunt perferendis voluptatum eveniet? Deserunt, praesentium perferendis! Nesciunt, reiciendis ratione.
+
+                                          </p>
+                                           <button class=" btn">
+                                           <b> VIEW PLANS </b>
+                                         </button>
+                                      </div>
+                                 </article>
+                                    <div class=" col col-2">
+                                        <a href="#"> <img src="assets/01.png" alt="pic"></a>
+                                     </div>
+                             </div>
+                         </section>  
+
+                      <!-- blog -->
+
+                        <section class="section-2 blog" >
+                               <div class="container ">
+                                   <article class="flex">
+                                        <div class=" col-3">
+                                                <img src="assets/02.png" alt="pic">
+                                                
+                                         </div>
+
+                                         <div class="col-4">
+                                             <h3>
+                                                   about the insure
+                                             </h3>
+                                             <p>
+                                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus quod maxime non molestias, numquam facilis quisquam, totam dolor commodi sint cum modi magnam maiores enim at voluptatum recusandae. Mollitia, iure.
+                                             </p>   
+                                             <button  class="btn-2">
+                                                 <a href="#">knows more</a>
+                                             </button>
+                                         </div>
+                                 </article>
+                             </div>
+                         </section>
+                        
+                        <section class="section-3 blog">
+                           
+                           <div class="container ">
+                                <div>
+                                   <h3>WE ARE DIFFRENT</h3>
+                                </div>
+                               <article class="flex">
+                                      <div class="col-5">
+                                           <i class="fa fa-cogs" style="font-size:34px"></i>
+                                           <h4>Easy Process </h4>
+                                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolor aut iste asperiores eligendi harum minima saepe praesentium cumque magni quia officiis soluta, esse cum veritatis consectetur pariatur iure illum!
+                     
+                                           </p>
+                                     </div>
+               
+                                      <div class="col-6">
+                                            <i class="fa fa-cogs" style="font-size:34px"></i>
+                                            <h4>Easy Process </h4>
+                                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolor aut iste asperiores eligendi harum minima saepe praesentium cumque magni quia officiis soluta, esse cum veritatis consectetur pariatur iure illum!
+               
+                                             </p>
+                                     </div>
+
+                                     <div class="col-7">
+                                            <i class="fa fa-cogs" style="font-size:34px"></i>
+                                            <h4>Easy Process </h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt  dolor aut iste asperiores eligendi harum minima saepe praesentium cumque magni quia officiis soluta, esse cum veritatis consectetur pariatur iure illum!
+          
+                                            </p>
+                                     </div>
+
+                                 </article>
+                            </div>
+
+                         </section>
+
+                     <section class="section-4 about">
+                         <div class="container  ">
+                             <article class="flex">
+                                 <div class=" col-1">
+                                   <h2>Find out more how we work</h2>
+                                  </div>
+     
+                                 <div class="col-2">
+                                   <button  class=" btn-more ">
+                                      <a href="#">HOW WE WORK</a>
+                                    </button>
+                                 </div>
+
+                             </article>
+                           </div>
+                     </section>
+                </main>
+             <footer>
+                      <div class="container flex">
+                          <h2>ProInsure</h2>
+                         <nav>
+                         <a href="#"><i class="fa fa-facebook-square"></i></a>
+                         <a href="#"><i class="fa fa-twitter-square"></i></a>
+
+                         </nav>
+                   </div>
+                     <hr class="footer-hr">
+             
+                     <nav class="contact">
+                        <a href="#">Home</a>
+                         <a href="#">About us </a>
+                        <a href="#">Contact us</a>
+                        <a href="#">how we Work</a></button>
+                     </nav>
+                    <div class="more-details">
+                             <i class="fa fa-copyright"><b>AltCampus Services Pvt Ltd,2018-Present.</b></i>
+                     </div>
+                </footer>
+     
+    </body>
+</html>
