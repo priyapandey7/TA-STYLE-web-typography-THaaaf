@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custome style */
+
+body {
+    line-height: 1.5;
+    font-family:'Karla', sans-serif;
+    font-size:16px;
+    margin: 0 auto;
+}
+
+/* general */
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+/* header */
+
+.header {
+padding: 16px 0 ;
+}
+
+.header a {
+ text-decoration: none;
+font-size: 20px;
+color: gray;
+margin-left: 34px;
+font-weight: 700;
+}
+.brand  h1 {
+font-size: 35px;
+font-weight: 900;
+color: black;
+font-family: 'DM Serif Display', serif;
+}
+/* section-1 */
+.section-1 {
+    background-color: rgb(46,38,64);
+    margin: 0 auto;
+    height: 400px;
+}
+.section-1 img {
+    margin-top:20px ;
+    width: 100%;
+}
+.line {
+   color: rgb(139, 132, 132);
+   margin: 0 auto;
+}
+.col {
+    width:50%;
+    padding: 30px;
+}
+.col-1 h2{
+color: #FFFFFF;
+font-size: 40px;
+font-family: 'DM Serif Display', serif;
+text-transform: capitalize;
+}
+
+.col-1 p {
+    font-size: 14px;
+    color: white;
+}
+.view {
+    border: 1px solid rgb(126, 126, 126);
+    color: black;
+    margin-left:10px ;
+    padding: 10px;
+}
+/* section-2 */
+
+.col-3 {
+    
+  flex: 0 1 30%;
+
+}
+.col-4 {
+flex: 0 1 60%;
+margin-left: 30px;
+margin-top: 50px;
+padding: 50px;
+
+}
+.blog img {
+width: 100%;
+border-radius: 8px;
+}
+.blog {
+    margin-top: 60px ;
+}
+
+h3 {
+color: black;
+font-size: 40px;
+font-family: 'DM Serif Display', serif;
+text-transform: capitalize;
+} 
+.btn {
+    background-color:rgb(46,38,64) ;
+    border: 2px solid rgb(139, 132, 132);
+    color: white;
+    margin-top:20px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.btn-2 {
+    margin-top:20px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    text-transform: capitalize;
+}
+.blog p {
+    font-size: 20px;
+} 
+.btn-2 a {
+text-decoration: none;
+color: #000;
+}
+/* section-3 */
+.section-3 {
+    margin: 60px 0;
+    height: 400px;
+}
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color:rgb(46,38,64) ;
+   text-shadow: 2px 2px rgb(132, 132, 192);
+
+}
+.col-5 {
+    width: 30%;
+    margin: 20px 0;
+
+}
+.col-6{
+    width: 30%;
+}
+.col-7{
+    width: 30%;
+}
+.section-4 {
+    background-color:rgb(46,38,64) ;
+    margin: 0 auto;
+    height: 80px;
+    padding: 80px 0;
+}
+.about {
+    width: 1300px;
+}
+.btn-more {
+    background-color:rgb(46,38,64) ;
+    font-size: 20px;
+    border: 2px solid white;
+    text-align: center;
+    padding: 10px;
+}
+.btn-more a {
+    text-decoration: none;
+    color:white
+}
+/* Footer */
+footer {
+	background-color:white;
+	padding: 20px;
+	font-size: 34px; 
+    color:rgb(46,38,64) ;
+    font-weight: 700;
+    }
+    
+.fa {
+	font-size:34px;
+	color:  rgb(68, 68, 107);
+	padding: 20px;
+}
+
+
+.footer-hr {
+    width: 1300px;
+    margin: 0 auto;
+}
+.contact {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+.contact a{
+    text-decoration: none;
+   
+    margin: 20px;
+}
+.more-details {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: rgb(46,38,64) ;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+
+}
+.more-details i {
+    color: rgb(200, 193, 193);
+}
